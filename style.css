@@ -1,0 +1,94 @@
+.header-bg{
+    background-color: rgb(210, 103, 64);
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+    background-color: transparent;
+    
+}
+.color{
+    color: rgb(255, 127, 80) !important;
+    font-size: 30px;
+}
+@media  screen and (min-width: 481px) and (max-width: 768px){
+  .procontainer{
+  flex-wrap:wrap;
+  flex-direction: column;
+  float: left;
+  overflow: hidden;
+  margin:40px 0 0 0;
+  width: 300px;
+  height: 200px;
+  }
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+.procontainer{
+  flex-wrap:wrap;
+  flex-direction: column;
+  float: left;
+  overflow: hidden;
+  margin:40px 0 0 0;
+  width: 400px;
+  height: 300px;
+  }
+}
+@media screen and (min-width:1025px){
+  .procontainer{
+    flex-wrap:wrap;
+    flex-direction: column;
+    margin-left: 70px;
+    width: 50px;
+    height: 320px;
+    float: right;
+    overflow: hidden;
+    }
+  }
+@media only screen and (min-width:380px) and (max-width: 480px){
+  .procontainer{
+  flex-wrap: wrap right;
+  flex-direction: column;
+  float: left;
+  overflow: hidden;
+  margin:40px 0 0 0;
+  width: 200px;
+  height: 150px;
+  }
+}
+.procontainer{
+   display:inline;
+  width: 500px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  margin: 50px auto;
+}
+
+.barcontainer{
+  background-color:#4d4242e5;
+  position: relative;
+  transform: translateY(-40%);
+  top: 50%;
+  margin-left: 70px;
+  width: 50px;
+  height: 320px;
+  float: right;
+
+}
+  
+.bar{
+  background-color: #e07325;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80%;
+  box-sizing: border-box;
+  animation: grow 1.5s ease-out forwards;
+  transform-origin: bottom;
+}
+@keyframes grow{
+  from{
+    transform: scaleY(0);
+  }
+}
+  
+ 

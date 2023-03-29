@@ -1,0 +1,21 @@
+img{
+    width: 100px;
+    height: 40px;
+}
+.width{
+    width: 1300px;
+    height: 534px;
+}
+.cart{
+    width: 700px;
+    display: flex;
+}
+.img1{
+    width:350px ;
+    background-color: steelblue;
+    padding: 10px 79px 0 99px;
+}
+.cart img{
+    width: 350px;
+    height:300px;
+}
