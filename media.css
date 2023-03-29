@@ -1,0 +1,11 @@
+@media (max-width:500) {
+  .container  {
+    width:495px;
+   display: flex;
+   flex-wrap: wrap;
+  }
+.link{
+    width: 480px;
+    flex-wrap: wrap;
+  }
+}
